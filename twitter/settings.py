@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'twitter.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+      'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'twitter_database',
+       'NAME': 'postgres',
        'USER': 'postgres',
-       'PASSWORD': 'Chandra@1234',
-       'HOST': 'localhost',
+       'PASSWORD': 'bommusri3308',
+       'HOST': 'db.uxtdyocwbsilrkwaneon.supabase.co',
        'PORT': '5432'
     }
 }
