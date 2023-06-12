@@ -5,8 +5,5 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "twitter/wsgi.py"}
-    ],
-    "env": {
-      "DATABASE_URL": "postgres://postgres:Chandra@1234@localhost:5432/twitter_database"
-    }
+    ]
   }
